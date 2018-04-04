@@ -99,6 +99,34 @@ html,.container {
 		li {
 			display: table-row;
 		}
+		.loginButton {
+			display: inline-block;
+			background-color: #4285F4;
+			color: #ffffff;
+			font-size: 15px;
+			padding: 10px 25px;
+			border: none;
+			border-radius: 10px;
+			text-align: center;
+		}
+		.loginButton:hover {
+			background-color: #4285F4;
+			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+		}
+		.logoutButton {
+			display: inline-block;
+			background-color: #4285F4;
+			color: #ffffff;
+			font-size: 14px;
+			padding: 10px 25px;
+			border: none;
+			border-radius: 10px;
+			text-align: center;
+		}
+		.logoutButton:hover {
+			background-color: #4285F4;
+			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+		}
 		@media only screen and (max-width: 400px) {
 			h4, h3 {
 				font-size: 10px;
@@ -124,3 +152,4 @@ html,.container {
 				font-size: initial;
 			}
 		}
+		
