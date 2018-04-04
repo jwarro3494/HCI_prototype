@@ -49,6 +49,16 @@
 					width = 50%;
 					box-sizing: border-box;
 				}
+				.button {
+					background-color: #ff5c33;
+					box-shadow: 1px 3px #b3b3b3;
+					color: white;
+					display: inline-block;
+					padding: 1%;
+					font-size: 14px;
+					margin-left: 1%;
+					text-align: center;
+				}
 
 				h1 {
 					font-size: 13px;
@@ -142,7 +152,7 @@
 				<h1>Last Name: 
 					<input type="text" name="lastname" placeholder="Fiero"></h1>
 				<h1>*Email Address: 
-					<input type="text" name="email" placeholder="j123@gmail.com"></h1>
+					<input type="text" name="email" placeholder="j123@gmail.com" required=""></h1>
 				<h1>*Create username: 
 					<input type="text" name="username" placeholder="fierojohn"></h1>
 				<h1>*Create password: 
@@ -152,8 +162,9 @@
 					<input type="radio" name="region2" value="Canada"> Canada
 					<input type="radio" name="otherRegion" value="Other"> Other 
 				</h1>
-					<input type="button" value="Join the Forum" onclick="window.location.href='account-success.html'" /> 
-				</form> 
+					<input type="button" class="button" value="Home" onclick="window.location.href='main.html'" />
+					<input type="button" class="button" value="Join the Forum" onclick="window.location.href='account-success.html'" /> 
+				</form>  
 				<h1> Note: The * represents required fields. <br /> All others may be left blank. </h1>
 			</div>
 		</div>

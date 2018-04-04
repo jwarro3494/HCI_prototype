@@ -1,0 +1,126 @@
+html,.container {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+		}
+		a:link {
+    		color: blue;
+    		background-color: transparent;
+    		text-decoration: none;
+		}
+		a:hover {
+			color: red;
+			text-decoration: underline;
+			background-color: transparent;
+			display: inline-block; <!-- This reduces the length of the underline below the top links -->
+		}
+		p { 
+			word-spacing: 50px;
+		}
+		body {
+			background-color: #f5f5f5;
+		}
+		.boxed {
+  			border: 1px solid black;
+  			width: 50%;
+			height: 100%;
+			box-sizing: border-box;
+  			text-align: left;
+			padding-left: 1%;
+			padding-bottom: 3%;
+			margin: auto;
+			box-shadow: 0 10px 20px #b3b3b3, 0 15px 18px #b3b3b3;
+			background-color: #ffffff;
+		} 
+		.div1 {
+  			border: 1px solid black;
+			width: 98%;
+  			height: 100px;
+			box-sizing: border-box;
+			text-align: left;	
+			padding-left: 1%;
+			padding-right: 1%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			font-size: 15px;
+			word-wrap: normal;
+		}
+		h1 {
+			font-size: 13px;
+			text-align: right;
+			margin: 0 auto;
+		}
+		h2 {
+			font-size: 28px;
+			text-align: left;
+			font-weight: bold;
+			font-style: italic;
+			margin: 0 auto;
+		}
+		h3 {
+			font-size: 20px;
+			text-align: left;
+			font-weight: bold;
+			font-style: italic;
+			margin: 0 auto;
+		}
+		h4 {
+			padding-top: 30px;
+			font-size: 28px;
+			font-weight: normal;
+			text-align: left;
+			margin: 0 auto;
+
+		}
+		h5 {
+			padding-top: 1%;
+			padding-left: 1%;
+			padding-right: 1%;
+			padding-bottom: 1%;
+			font-size: 20px;
+			font-weight: normal;
+			text-align: left;
+			margin: 0 auto;
+		}
+		.nav {
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			text-align: left;
+			margin: 0 auto;
+		}
+		ul {
+			display: table;
+			list-style-type: none;
+			margin-left: 0;
+			padding-left: 0;
+			margin-top: 0;
+			padding-bottom: 20px;
+		}
+		li {
+			display: table-row;
+		}
+		@media only screen and (max-width: 400px) {
+			h4, h3 {
+				font-size: 10px;
+			}
+			h5 {
+				font-size: 10px;
+			}
+			h2 {
+				font-size: 18px;
+			}
+			.nav {
+				font-size: 10px;
+			}
+		}
+		@media only screen and (max-width: 670px) {
+			h4 {
+				font-size: initial;
+			}
+			h5 {
+				font-size: initial;
+			}
+			.nav {
+				font-size: initial;
+			}
+		}
