@@ -1,4 +1,4 @@
-html,.container {
+		html,.container {
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 20px;
 		}
@@ -137,11 +137,18 @@ html,.container {
 			h2 {
 				font-size: 18px;
 			}
+			h1 {
+				font-size: 9px;
+			}
 			.nav {
 				font-size: 10px;
 			}
+			.loginButton, .logoutButton {
+				font-size: 10px;
+				padding: 9px 18px;
+			}
 		}
-		@media only screen and (max-width: 670px) {
+		@media only screen and (min-width: 401px max-width: 670px) {
 			h4 {
 				font-size: initial;
 			}

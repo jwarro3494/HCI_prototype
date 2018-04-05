@@ -37,18 +37,19 @@ html,.container {
   					text-align: left;
   					margin-bottom: 50%;	
 				}
-				input[type=text] {
+				input[type="text"] {
 					width = 50%;
 					box-sizing: border-box;
 				}
-				input[type=password] {
+				input[type="password"] {
 					width = 50%;
 					box-sizing: border-box;
 				}
 				h1 {
 					font-size: 13px;
 					text-align: center;
-					margin-bottom: 50px;
+					margin-top: 20px;
+					margin-bottom: 30px;
 				}
 				h2 {
 					font-size: 28px;
@@ -88,6 +89,20 @@ html,.container {
 				li {
 					display: table-row;
 				}
+				.loginButton {
+					display: inline-block;
+					background-color: #4285F4;
+					color: #ffffff;
+					font-size: 15px;
+					padding: 10px 25px;
+					border: none;
+					border-radius: 10px;
+					text-align: center;
+				}
+				.loginButton:hover {
+					background-color: #4285F4;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
 				@media only screen and (max-width: 400px) {
 					h4, h3 {
 						font-size: 12px;
@@ -98,12 +113,16 @@ html,.container {
 					h2 {
 						font-size: 18px;
 					}
+					h1 {
+						margin-top: 15px;
+						margin-bottom: 10px;
+					}
 					.boxed {
 						width: 100%;
 						height: 70%;
 					}
 				}
-				@media only screen and (min-width: 401px max-width: 900px) {
+				@media only screen and (max-width: 600px) {
 					h4 {
 						font-size: 17px;
 					}
@@ -114,11 +133,16 @@ html,.container {
 						width: 80%;
 						height: 100%;
 					}
+					.loginButton {
+						font-size: 10px;
+						padding: 9px 18px;
+					}
 				}
-				@media only screen and ( max-width: 1200px) {
+				@media only screen and (min-width: 601px max-width: 700px) {
 					.boxed {
 						width: 100%;
 						height: 100%;
+						
 					}
 				}
 				

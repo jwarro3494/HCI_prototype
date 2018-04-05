@@ -1,137 +1,11 @@
 <!DOCTYPE html> 
 <html lang="en">
 	<head> 
+		<title> Forrester Fiero Forum </title>
 		<meta charset="UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-		<title> Forrester Fiero Forum </title>
-        <style>
-        		.container {
-					font-family: arial, Helvetica, sans-serif;
-					font-size: 20px;
-				}
-				a:link {
-    				color: blue;
-    				background-color: transparent;
-    				text-decoration: none;
-				}
-				a:hover {
-					color: blue;
-					text-decoration: underline;
-					background-color: transparent;
-					display: inline-block;
-				}
-				p { 
-    				word-spacing: 50px;
-				}
-				.boxed {
-  				border: 1px solid black;
-  				width: 40%;
-  				height: 100%;
-  				box-sizing: border-box;
-  				text-align: center;
-  				margin: auto;
-  				<!-- box-shadow: 10px 10px 25px #b3b3b3;  -->
-				} 
-				.div1 {
-				border: 1px solid black;
-  				width: 250px;
-  				height: 100px;
-  				box-sizing: border-box;
-  				text-align: left;	
-				}
-				input[type=text] {
-					width = 50%;
-					box-sizing: border-box;
-				}
-				input[type=password] {
-					width = 50%;
-					box-sizing: border-box;
-				}
-				.button {
-					background-color: #ff5c33;
-					box-shadow: 1px 3px #b3b3b3;
-					color: white;
-					display: inline-block;
-					padding: 1%;
-					font-size: 14px;
-					margin-left: 1%;
-					text-align: center;
-				}
-
-				h1 {
-					font-size: 13px;
-					font-style: normal;
-					font-weight: normal;
-					text-align: center;
-					margin: 0 auto;
-					padding-bottom: 5%;
-				}
-				h2 {
-					font-size: 28px;
-					text-align: left;
-					font-weight: bold;
-					font-style: italic;
-					margin: 0 auto;
-				}
-				h3 {
-					font-size: 20px;
-					text-align: left;
-					font-weight: bold;
-					font-style: italic;
-					margin: 0 auto;
-				}
-				h4 {
-					padding-top: 30px;
-					font-size: 23px;
-					font-weight: normal;
-					text-align: left;
-					margin: 0 auto;
-				}
-				h5 {
-					font-size: 28px;
-					text-align: center;
-					font-weight: normal;
-					font-style: normal;
-				}
-				ul {
-					display: table;
-					list-style-type: none;
-					margin-left: 0;
-					padding-left: 0;
-					margin-top: 0;
-					padding-bottom: 20px;
-				}
-				li {
-					display: table-row;
-				}
-				@media only screen and (max-width: 400px) {
-					h4, h3 {
-						font-size: 12px;
-					}
-					h5 {
-						font-size: 10px;
-					}
-					h2 {
-						font-size: 18px;
-					}
-					.boxed {
-						width: 100%;
-					}
-				}
-				@media only screen and (max-width: 1200px) {
-					h4 {
-						font-size: initial;
-					}
-					h5 {
-						font-size: initial;
-					}
-					.boxed {
-						width: 80%;
-					}
-				}
-	     </style>
+        <link rel="stylesheet" type="text/css" href="logon.css">
 	<header>	</head>	
 				<div class="container">
             	  <h2>  Forrester Fiero Forum 	</h2>		
@@ -162,8 +36,8 @@
 					<input type="radio" name="region2" value="Canada"> Canada
 					<input type="radio" name="otherRegion" value="Other"> Other 
 				</h1>
-					<input type="button" class="button" value="Home" onclick="window.location.href='main.html'" />
-					<input type="button" class="button" value="Join the Forum" onclick="window.location.href='account-success.html'" /> 
+					<input type="button" class="loginButton" value="Home" onclick="window.location.href='main.html'" />
+					<input type="button" class="loginButton" value="Join the Forum" onclick="window.location.href='account-success.html'" /> 
 				</form>  
 				<h1> Note: The * represents required fields. <br /> All others may be left blank. </h1>
 			</div>
