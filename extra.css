@@ -1,6 +1,6 @@
-html,.container {
+				html,.container {
 					font-family: Arial, Helvetica, sans-serif;
-					font-size: 20px;
+					font-size: 14px;
 				}
 				a:link {
     				color: blue;
@@ -21,35 +21,36 @@ html,.container {
 				}
 				.boxed {
   					border: 1px solid black;
-  					width: 30%;
-  					height: 60%;
+  					width: 40%;
+  					height: 100%;
   					box-sizing: border-box;
   					text-align: center;
+  					padding-left: 10px;
+  					padding-right: 10px;
+  					padding-bottom: 20px;
+  					box-shadow: 0 5px 10px #b3b3b3, 0 5px 18px #b3b3b3;
   					margin: auto;
-  	                box-shadow: 0 10px 20px #b3b3b3, 0 15px 18px #b3b3b3;
-					background-color: #ffffff;  
 				} 
 				.div1 {
 					border: 1px solid black;
-  					width: 100%;
-  					height: 100%;
+  					width: 180px;
+  					height: 60px;
   					box-sizing: border-box;
-  					text-align: left;
-  					margin-bottom: 50%;	
-				}
-				input[type="text"] {
-					width = 50%;
-					box-sizing: border-box;
-				}
-				input[type="password"] {
-					width = 50%;
-					box-sizing: border-box;
+  					text-align: left;	
+  					padding-top: 15px;
+  					padding-bottom: 15px;
+  					padding-left: 10px;
+  					margin-top: 20px;
+  					margin-bottom: 20px;
 				}
 				h1 {
 					font-size: 13px;
-					text-align: center;
-					margin-top: 20px;
-					margin-bottom: 30px;
+					font-style: normal;
+					font-weight: normal;
+					text-align: right;
+					margin: 0 auto;
+					margin-top: 10px;: 
+					margin-bottom: 10px;
 				}
 				h2 {
 					font-size: 28px;
@@ -67,16 +68,18 @@ html,.container {
 				}
 				h4 {
 					padding-top: 30px;
+					padding-bottom: 30px;
 					font-size: 23px;
 					font-weight: normal;
-					text-align: left;
+					text-align: center;
 					margin: 0 auto;
 				}
 				h5 {
-					font-size: 28px;
-					text-align: center;
+					font-size: 15px;
+					text-align: left;
 					font-weight: normal;
 					font-style: normal;
+					margin: 0 auto;
 				}
 				ul {
 					display: table;
@@ -89,60 +92,82 @@ html,.container {
 				li {
 					display: table-row;
 				}
-				.loginButton {
+				input[type=radio] {
+					box-sizing: border-box;
+					margin-bottom: 20px;
+				}
+				.logoutButton {
 					display: inline-block;
 					background-color: #4285F4;
 					color: #ffffff;
-					font-size: 15px;
+					font-size: 14px;
 					padding: 10px 25px;
 					border: none;
 					border-radius: 10px;
 					text-align: center;
 				}
-				.loginButton:hover {
+				.logoutButton:hover {
 					background-color: #ff1a1a;
 					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				.submitButton, .deleteButton {
+					margin-top: 10px;
+					display: inline-block;
+					background-color:  #ff1a1a;
+					color: #ffffff;
+					font-size: 12px;
+					font-weight: bold;
+					padding: 10px 20px;
+					border: none;
+					border-radius: 10px;
+					text-align: center;
+					margin-top: 15px;
+					margin-bottom: 15px;
+				}
+				.submitButton:hover, .deleteButton:hover {
+					background-color: #cc0000;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				hr {
+					margin-top: 20px;
+					margin-bottom: 20px;
 				}
 				@media only screen and (max-width: 400px) {
 					h4, h3 {
 						font-size: 12px;
 					}
 					h5 {
-						font-size: 28px;
+						font-size: 10px;
 					}
 					h2 {
 						font-size: 18px;
 					}
-					h1 {
-						margin-top: 15px;
-						margin-bottom: 10px;
-					}
 					.boxed {
 						width: 100%;
-						height: 70%;
+					}
+					.div1 {
+						width: 85%;
 					}
 				}
-				@media only screen and (max-width: 600px) {
+				@media only screen and (min-width: 401px max-width: 900px) {
 					h4 {
-						font-size: 17px;
+						font-size: initial;
 					}
 					h5 {
 						font-size: initial;
 					}
 					.boxed {
-						width: 80%;
-						height: 100%;
+						width: 60%;
 					}
-					.loginButton {
-						font-size: 10px;
-						padding: 9px 18px;
+					.div1 {
+						width: 98%;
 					}
 				}
-				@media only screen and (min-width: 601px max-width: 700px) {
+				@media only screen and (min-width: 901px max-width: 1600px) {
 					.boxed {
-						width: 100%;
-						height: 100%;
-						
+						width: 80%;
+					}
+					.div1 {
+						width: 70%;
 					}
 				}
-				

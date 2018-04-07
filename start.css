@@ -108,9 +108,10 @@
 			border: none;
 			border-radius: 10px;
 			text-align: center;
+			cursor: pointer;
 		}
 		.loginButton:hover {
-			background-color: #4285F4;
+			background-color: #ff1a1a;
 			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
 		}
 		.logoutButton {
@@ -124,7 +125,7 @@
 			text-align: center;
 		}
 		.logoutButton:hover {
-			background-color: #4285F4;
+			background-color: #ff1a1a;
 			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
 		}
 		@media only screen and (max-width: 400px) {
