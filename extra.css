@@ -21,7 +21,7 @@
 				}
 				.boxed {
   					border: 1px solid black;
-  					width: 40%;
+  					width: 60%;
   					height: 100%;
   					box-sizing: border-box;
   					text-align: center;
@@ -149,7 +149,7 @@
 						width: 85%;
 					}
 				}
-				@media only screen and (min-width: 401px max-width: 900px) {
+				@media only screen and (min-width: 401px max-width: 780px) {
 					h4 {
 						font-size: initial;
 					}
@@ -157,17 +157,10 @@
 						font-size: initial;
 					}
 					.boxed {
-						width: 60%;
+						width: 100%;
 					}
 					.div1 {
-						width: 98%;
+						width: 58%;
 					}
 				}
-				@media only screen and (min-width: 901px max-width: 1600px) {
-					.boxed {
-						width: 80%;
-					}
-					.div1 {
-						width: 70%;
-					}
-				}
+				

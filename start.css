@@ -21,7 +21,7 @@
 		}
 		.boxed {
   			border: 1px solid black;
-  			width: 50%;
+  			width: 60%;
 			height: 100%;
 			box-sizing: border-box;
   			text-align: left;
@@ -129,11 +129,15 @@
 			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
 		}
 		@media only screen and (max-width: 400px) {
-			h4, h3 {
-				font-size: 10px;
+			h3 {
+				font-size: 13px;
+			}
+			h4 {
+				font-size: 13px;
+				padding-left: 5px; <!-- This extra padding makes the text even with the div box. -->
 			}
 			h5 {
-				font-size: 10px;
+				font-size: 11px;
 			}
 			h2 {
 				font-size: 18px;
@@ -148,8 +152,15 @@
 				font-size: 10px;
 				padding: 9px 18px;
 			}
+			.boxed {
+				width: 85%;
+			}
+			.div1 {
+				width: 96%;
+				margin: 0 auto;
+			}
 		}
-		@media only screen and (min-width: 401px max-width: 670px) {
+		@media only screen and (min-width: 401px max-width: 780px) {
 			h4 {
 				font-size: initial;
 			}
@@ -158,6 +169,9 @@
 			}
 			.nav {
 				font-size: initial;
+			}
+			.boxed {
+				width: 85%;
 			}
 		}
 		
