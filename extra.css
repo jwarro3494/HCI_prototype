@@ -96,7 +96,6 @@
 				}
 				input[type=radio] {
 					box-sizing: border-box;
-					
 					margin-bottom: 20px;
 					
 				}
@@ -118,7 +117,7 @@
 					display: inline-block;
 					background-color: #4285F4;
 					color: #ffffff;
-					font-size: 14px;
+					font-size: 15px;
 					padding: 10px 25px;
 					border: none;
 					border-radius: 10px;
@@ -165,6 +164,9 @@
 					}
 					.div1 {
 						width: 85%;
+					}
+					.logoutButton {
+						font-size: 12px;
 					}
 				}
 				@media only screen and (min-width: 401px max-width: 780px) {
