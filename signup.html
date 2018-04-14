@@ -12,13 +12,13 @@
                   <h3>	By Fiero Fanactics, For Fiero Fanatics 
             		<p> 
             			<a href="main.html"> Home </a> 
-            			<a href="main.html"> Forum </a>
+            			<a href="discussion.html"> Forum </a>
             			<a href="main.html"> Gallery </a>
             	    </p>
             	</h3>
 	</header>
 		<body>
-				<div class="boxed">
+				<div class="login-boxed">
 				<h5> Create an Account </h5>
 				<form>
 				<h1>*First Name: <br />
@@ -31,10 +31,16 @@
 					<input type="text" name="username" placeholder="fierojohn" required title="Create a new username."></h1>
 				<h1>*Create password: <br />
 					<input type="password" name="psw" placeholder="thedopestfiero" required title="Create a new password. Please do not use a password that you are currently using for important stuff like online banking."></h1>
-				<h1>*Enter region: <br />
-					<input type="radio" name="region1" value="USA" checked title="Select country of origin"> USA
-					<input type="radio" name="region2" value="Canada"> Canada
-					<input type="radio" name="otherRegion" value="Other"> Other 
+				<h1> *Enter region: <br />
+				<div class="region-select rounded">
+				<select>
+				  		<option value="USA">USA</option>
+ 				 	 	<option value="Canada">Canada</option>
+ 				 	 	<option value="Europe">Europe</option>
+ 					 	<option value="Mexico">Mexico</option>
+ 					 	<option value="Other">Other</option>
+				</select>
+				</div>
 				</h1>
 					<input type="button" class="loginButton" value="Join the Forum" onclick="window.location.href='account-success.html'" title="Create your free account!" />
 					<input type="button" class="loginButton" value="Home" onclick="window.location.href='main.html'" title="Go back to the main page" />

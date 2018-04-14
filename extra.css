@@ -34,7 +34,7 @@
 				} 
 				.div1 {
 					border: 1px solid black;
-  					width: 180px;
+  					width: 100px;
   					height: 60px;
   					box-sizing: border-box;
   					text-align: left;	
@@ -106,6 +106,7 @@
 					padding: 10px 25px;
 					width: 60%;
 					margin: auto;
+					margin-bottom: 20px;
 					color: blue;
 				}
 				input[type=text]:hover, input[type=password]:hover {
@@ -149,24 +150,60 @@
 					margin-top: 20px;
 					margin-bottom: 20px;
 				}
+				.region-select {
+					background-color: #4285F4;
+				    width: 100px;
+				    overflow: hidden;
+				    margin: auto;
+				}
+				.region-select select {
+					border: none;
+					background: transparent;
+					font-size: 12px;
+					height: 30px;
+					padding: 4px;
+					width: 100px;
+					color: #ffffff;
+					font-size: 13px;
+				}
+				.region-select:hover {
+					background-color: #ff1a1a;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				.rounded {
+				   -webkit-border-radius: 5px;
+				   -moz-border-radius: 5px;
+				   border-radius: 5px;
+				}
+				<!-- The select styling was borrowed from https://codepen.io/ericrasch/pen/zjDBx -->
 				@media only screen and (max-width: 400px) {
-					h4, h3 {
-						font-size: 12px;
+					h3 {
+						font-size: 13px;
+					}
+					h4 {
+						font-size: 13px;
+						padding-left: 5px; <!-- This extra padding makes the text even with the div box. -->
 					}
 					h5 {
-						font-size: 10px;
+						font-size: 11px;
 					}
 					h2 {
 						font-size: 18px;
+					}
+					h1 {
+						font-size: 9px;
+					}
+					h6 {
+						font-size: 13px;
 					}
 					.boxed {
 						width: 100%;
 					}
 					.div1 {
-						width: 85%;
+						width: 98%;
 					}
 					.logoutButton {
-						font-size: 12px;
+						font-size: 10px;
 					}
 				}
 				@media only screen and (min-width: 401px max-width: 780px) {
