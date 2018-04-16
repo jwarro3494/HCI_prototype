@@ -166,6 +166,7 @@
 		} 
 		textarea {
 			width: 95.5%; <!-- the .5 makes them both even. -->
+			color: blue;
 			height: auto;
 			padding: 15px 25px;
 			display: block;
