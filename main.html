@@ -1,149 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head> 
+	<head>
+	<title> Forrester Fiero Forum </title> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Forrester Fiero Forum </title>
-	<style type="text/css">
-	<!-- The internal stylesheets are here for testing purposes. I may use an external stylesheet at a later time -->
-		.container {
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 20px;
-		}
-		a:link {
-    		color: blue;
-    		background-color: transparent;
-    		text-decoration: none;
-		}
-		a:hover {
-			color: blue;
-			text-decoration: underline;
-			background-color: transparent;
-			display: inline-block; <!-- This reduces the length of the underline below the top links -->
-		}
-		p { 
-			word-spacing: 50px;
-		}
-		.boxed {
-  			border: 1px solid black;
-  			width: 50%;
-			height: 100%;
-			box-sizing: border-box;
-  			text-align: left;
-			padding-left: 1%;
-			padding-bottom: 3%;
-			margin: auto;
-		} 
-		.div1 {
-  			border: 1px solid black;
-			width: 98%;
-  			height: 100px;
-			box-sizing: border-box;
-			text-align: left;	
-			padding-left: 1%;
-			padding-right: 1%;
-			padding-top: 1%;
-			padding-bottom: 1%;
-			font-size: 15px;
-			word-wrap: normal;
-		}
-		h1 {
-			font-size: 13px;
-			text-align: right;
-			margin: 0 auto;
-		}
-		h2 {
-			font-size: 28px;
-			text-align: left;
-			font-weight: bold;
-			font-style: italic;
-			margin: 0 auto;
-		}
-		h3 {
-			font-size: 20px;
-			text-align: left;
-			font-weight: bold;
-			font-style: italic;
-			margin: 0 auto;
-		}
-		h4 {
-			padding-top: 30px;
-			font-size: 28px;
-			font-weight: normal;
-			text-align: left;
-			margin: 0 auto;
-
-		}
-		h5 {
-			padding-top: 1%;
-			padding-left: 1%;
-			padding-right: 1%;
-			padding-bottom: 1%;
-			font-size: 20px;
-			font-weight: normal;
-			text-align: left;
-			margin: 0 auto;
-		}
-		ul {
-			display: table;
-			list-style-type: none;
-			margin-left: 0;
-			padding-left: 0;
-			margin-top: 0;
-			padding-bottom: 20px;
-		}
-		li {
-			display: table-row;
-		}
-		@media only screen and (max-width: 400px) {
-			h4, h3 {
-				font-size: 10px;
-			}
-			h5 {
-				font-size: 10px;
-			}
-			h2 {
-				font-size: 18px;
-			}
-		}
-		@media only screen and (max-width: 670px) {
-			h4 {
-				font-size: initial;
-			}
-			h5 {
-				font-size: initial;
-			}
-		}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="start.css"/>
 	</head>	
 		<body>
 			<div class="container">
-			<font face = "sans-serif">
 			<header> 
-                	<h1> 
-                		<a href="signup.html"> Don't have an account? Create one here. </a>	
-                		<input type="button" onclick="window.location.href='login.html'" value="Log In"></button>
+                		<h1> 
+                		Don't have an account? <a href="signup.html" title="Create a new account."> Cereate one here. </a>	
+                		<input type="button" class="loginButton" onclick="window.location.href='login.html'" value="Log In" title="Log into an existing account."></button>
             		</h1>
-            		<h2> Forrester Fiero Forum </h2>		
-                 	<h3> By Fiero Fanactics, For Fiero Fanatics
+            		<h2> Forrester Fiero Forum 	</h2>
+            		<h3>		
+                 	By Fiero Fanactics, For Fiero Fanatics 
             		<p> 
-            			<a href="main.html"> Home </a> 
-            			<a href="main.html"> Forum </a>
+            			<a href="main.html.html"> Home </a> 
+            			<a href="discussion.html"> Forum </a>
             			<a href="main.html"> Gallery </a>
             	    </p>
             		</h3>
 			</header>
-			    	 
-					Related Links 
+					<div class="nav">
+					Related Links
 					<ul>
 						<li><a href="main.html"> Contact us </a> </li>
-						<li><a href="main.html"> Engine light on?</a> </li>
-						<li><a href="https://www.fierostore.com/"> The Fiero Store </a> <li>  
+						<li><a href="http://www.fiero.nl/cgi-bin/main.cgi?ECMCodes"> Engine light on?</a> </li>
+						<li><a href="https://www.fierostore.com/"> The Fiero Store </a> </li>
 					</ul>
+					</div>
 				<div class="boxed">
-					<h4> <a href="main.html"> Discussion</a> </h4>
+					<h4> <a href="discussion.html"> Discussion</a> </h4>
 					<div class="div1">
 						<h5>View or create a new discussion. </h5>
 					</div>

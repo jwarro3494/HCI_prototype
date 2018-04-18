@@ -1,0 +1,223 @@
+				html,.container {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+				}
+				a:link {
+    				color: blue;
+    				background-color: transparent;
+    				text-decoration: none;
+				}
+				a:hover {
+					color: red;
+					text-decoration: underline;
+					background-color: transparent;
+					display: inline-block;
+				}
+				p { 
+    				word-spacing: 50px;
+				}
+				body {
+					background-color: #f5f5f5;
+				}
+				.boxed {
+  					border: 1px solid black;
+  					width: 60%;
+  					height: 100%;
+  					box-sizing: border-box;
+  					text-align: center;
+  					padding-left: 10px;
+  					padding-right: 10px;
+  					padding-bottom: 20px;
+  					box-shadow: 0 5px 10px #b3b3b3, 0 5px 18px #b3b3b3;
+  					margin: auto;
+  					border-radius:10px;
+				} 
+				.div1 {
+					border: 1px solid black;
+  					width: 100px;
+  					height: 60px;
+  					box-sizing: border-box;
+  					text-align: left;	
+  					padding-top: 15px;
+  					padding-bottom: 15px;
+  					padding-left: 10px;
+  					margin-top: 20px;
+  					margin-bottom: 20px;
+  					border-radius:15px;
+				}
+				h1 {
+					font-size: 13px;
+					font-style: normal;
+					font-weight: normal;
+					text-align: right;
+					margin: 0 auto;
+					margin-top: 10px;: 
+					margin-bottom: 10px;
+				}
+				h2 {
+					font-size: 28px;
+					text-align: left;
+					font-weight: bold;
+					font-style: italic;
+					margin: 0 auto;
+				}
+				h3 {
+					font-size: 20px;
+					text-align: left;
+					font-weight: bold;
+					font-style: italic;
+					margin: 0 auto;
+				}
+				h4 {
+					padding-top: 30px;
+					padding-bottom: 30px;
+					font-size: 23px;
+					font-weight: bolder;
+					text-align: center;
+					margin: 0 auto;
+				}
+				h5 {
+					font-size: 15px;
+					text-align: left;
+					font-weight: normal;
+					font-style: normal;
+					margin: auto;
+				}
+				ul {
+					display: table;
+					list-style-type: none;
+					margin-left: 0;
+					padding-left: 0;
+					margin-top: 0;
+					padding-bottom: 20px;
+				}
+				li {
+					display: table-row;
+				}
+				input[type=radio] {
+					box-sizing: border-box;
+					margin-bottom: 20px;
+					
+				}
+				input[type=text], input[type=password] {
+					box-sizing: border-box;
+					border-radius: 4px;
+					border: 1px solid black;
+					padding: 10px 25px;
+					width: 60%;
+					margin: auto;
+					margin-bottom: 20px;
+					color: blue;
+				}
+				input[type=text]:hover, input[type=password]:hover {
+					color: #ff1a1a;
+					border: 1px solid #ff1a1a;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				.logoutButton {
+					display: inline-block;
+					background-color: #4285F4;
+					color: #ffffff;
+					font-size: 15px;
+					padding: 10px 25px;
+					border: none;
+					border-radius: 10px;
+					text-align: center;
+				}
+				.logoutButton:hover {
+					background-color: #ff1a1a;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				.submitButton, .deleteButton {
+					margin-top: 10px;
+					display: inline-block;
+					background-color:  #ff1a1a;
+					color: #ffffff;
+					font-size: 12px;
+					font-weight: bold;
+					padding: 10px 20px;
+					border: none;
+					border-radius: 10px;
+					text-align: center;
+					margin-top: 15px;
+					margin-bottom: 15px;
+				}
+				.submitButton:hover, .deleteButton:hover {
+					background-color: #cc0000;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				hr {
+					margin-top: 20px;
+					margin-bottom: 20px;
+				}
+				.region-select {
+					background-color: #4285F4;
+				    width: 100px;
+				    overflow: hidden;
+				    margin: auto;
+				}
+				.region-select select {
+					border: none;
+					background: transparent;
+					font-size: 12px;
+					height: 30px;
+					padding: 4px;
+					width: 100px;
+					color: #ffffff;
+					font-size: 13px;
+				}
+				.region-select:hover {
+					background-color: #ff1a1a;
+					box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+				}
+				.rounded {
+				   -webkit-border-radius: 5px;
+				   -moz-border-radius: 5px;
+				   border-radius: 5px;
+				}
+				<!-- The select styling was borrowed from https://codepen.io/ericrasch/pen/zjDBx -->
+				@media only screen and (max-width: 400px) {
+					h3 {
+						font-size: 13px;
+					}
+					h4 {
+						font-size: 13px;
+						padding-left: 5px; <!-- This extra padding makes the text even with the div box. -->
+					}
+					h5 {
+						font-size: 11px;
+					}
+					h2 {
+						font-size: 18px;
+					}
+					h1 {
+						font-size: 9px;
+					}
+					h6 {
+						font-size: 13px;
+					}
+					.boxed {
+						width: 100%;
+					}
+					.div1 {
+						width: 98%;
+					}
+					.logoutButton {
+						font-size: 10px;
+					}
+				}
+				@media only screen and (min-width: 401px max-width: 780px) {
+					h4 {
+						font-size: initial;
+					}
+					h5 {
+						font-size: initial;
+					}
+					.boxed {
+						width: 100%;
+					}
+					.div1 {
+						width: 58%;
+					}
+				}
+				

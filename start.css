@@ -1,0 +1,283 @@
+		html,.container {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+		}
+		a:link {
+    		color: blue;
+    		background-color: transparent;
+    		text-decoration: none;
+		}
+		a:hover {
+			color: red;
+			text-decoration: underline;
+			background-color: transparent;
+			display: inline-block; <!-- This reduces the length of the underline below the top links -->
+		}
+		p { 
+			word-spacing: 50px;
+		}
+		body {
+			background-color: #f5f5f5;
+		}
+		.boxed {
+  			border: 1px solid black;
+  			width: 60%;
+			height: 100%;
+			box-sizing: border-box;
+  			text-align: left;
+			padding-left: 1%;
+			padding-bottom: 3%;
+			margin: auto;
+			box-shadow: 0 10px 20px #b3b3b3, 0 15px 18px #b3b3b3;
+			background-color: #ffffff;
+			border-radius: 10px;
+		} 
+		.div1 {
+  			border: 1px solid black;
+			width: 98%;
+  			height: 100px;
+			box-sizing: border-box;
+			text-align: left;	
+			padding-left: 1%;
+			padding-right: 1%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			font-size: 15px;
+			word-wrap: normal;
+			border-radius: 12px;
+		} 
+		.boxed2 {
+			border: 1px solid black;
+  			width: 60%;
+			height: 100%;
+			box-sizing: border-box;
+  			text-align: center;
+			padding-left: 1%;
+			padding-bottom: 3%;
+			margin: auto;
+			box-shadow: 0 10px 20px #b3b3b3, 0 15px 18px #b3b3b3;
+			background-color: #ffffff;
+			border-radius: 10px;
+		}
+		.div2 {
+			border: 1px solid black;
+			width: 98%;
+			box-sizing: border-box;
+			text-align: center;
+			display: inline-block;
+			border-radius: 6px;
+			margin-top: 1%;
+			margin-bottom: 1%;
+			margin-left: 1%;
+			margin-right: 1%;
+			padding: 15px 25px;
+			font-size: 20px;
+		}
+		h1 {
+			font-size: 13px;
+			text-align: right;
+			margin: 0 auto;
+		}
+		h2 {
+			font-size: 28px;
+			text-align: left;
+			font-weight: bold;
+			font-style: italic;
+			margin: 0 auto;
+		}
+		h3 {
+			font-size: 20px;
+			text-align: left;
+			font-weight: bold;
+			font-style: italic;
+			margin: 0 auto;
+		}
+		h4 {
+			padding-top: 30px;
+			font-size: 28px;
+			font-weight: normal;
+			text-align: left;
+			margin: 0 auto;
+
+		}
+		h5 {
+			padding-top: 1%;
+			padding-left: 1%;
+			padding-right: 1%;
+			padding-bottom: 1%;
+			font-size: 20px;
+			font-weight: normal;
+			text-align: left;
+			margin: 0 auto;
+		}
+		h6 {
+			padding-top: 30px;
+			font-size: 28px;
+			font-weight: normal;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.nav {
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			text-align: left;
+			margin: 0 auto;
+		}
+		ul {
+			display: table;
+			list-style-type: none;
+			margin-left: 0;
+			padding-left: 0;
+			margin-top: 0;
+			padding-bottom: 20px;
+		}
+		li {
+			display: table-row;
+		}
+		.loginButton {
+			display: inline-block;
+			background-color: #4285F4;
+			color: #ffffff;
+			font-size: 15px;
+			padding: 10px 25px;
+			border: none;
+			border-radius: 10px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.loginButton:hover {
+			background-color: #ff1a1a;
+			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+		}
+		.logoutButton {
+			display: inline-block;
+			background-color: #4285F4;
+			color: #ffffff;
+			font-size: 14px;
+			padding: 10px 25px;
+			border: none;
+			border-radius: 10px;
+			text-align: center;
+		}
+		.logoutButton:hover {
+			background-color: #ff1a1a;
+			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+		} 
+		textarea {
+			width: 95.5%; <!-- the .5 makes them both even. -->
+			color: blue;
+			height: auto;
+			padding: 15px 25px;
+			display: block;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			border: 1px solid black;
+			overflow: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+		}
+    	textarea:hover {
+    		border: 2px solid #ff1a1a;
+    		box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+    	}
+    	input[type=text], input[type=password] {
+			box-sizing: border-box;
+			border-radius: 4px;
+			border: 1px solid black;
+			padding: 10px 25px;
+			width: 99%;
+			display: block;
+			color: blue;
+			font-size: 16px;
+			margin-top: 2%;
+		}
+		input[type=text]:hover, input[type=password]:hover {
+			color: #ff1a1a;
+			border: 1px solid #ff1a1a;
+			box-shadow: 0 5px 10px #b3b3b3, 0 5px 10px #b3b3b3;
+		}
+		.boxed3 {
+			border: 1px solid black;
+  			width: 98%;
+			height: auto;
+			box-sizing: border-box;
+  			text-align: left;
+			padding-left: 1%;
+			padding-bottom: 3%;
+			margin: auto;
+			box-shadow: 0 10px 20px #b3b3b3, 0 15px 18px #b3b3b3;
+			background-color: #ffffff;
+			border-radius: 10px;
+		}
+		@media only screen and (max-width: 400px) {
+			h3 {
+				font-size: 13px;
+			}
+			h4 {
+				font-size: 13px;
+				padding-left: 5px; <!-- This extra padding makes the text even with the div box. -->
+			}
+			h5 {
+				font-size: 11px;
+			}
+			h2 {
+				font-size: 18px;
+			}
+			h1 {
+				font-size: 9px;
+			}
+			h6 {
+				font-size: 13px;
+			}
+			.nav {
+				font-size: 10px;
+			}
+			.loginButton, .logoutButton {
+				font-size: 10px;
+				padding: 9px 18px;
+			}
+			.boxed {
+				width: 85%;
+			}
+			.div1 {
+				width: 96%;
+				margin: 0 auto;
+			}
+			.div2 {
+				width: 96%;
+				font-size: 15px;
+			}
+			input[type=text] {
+				font-size: 12px;
+				width: 90%;
+				margin-left: 3%;
+			}
+			textarea {
+				width: 70%;
+				resize: none;
+				margin-left: 3%;
+				margin-right: 3%;
+				font-size: 12px;
+			}
+		}
+		@media only screen and (min-width: 401px max-width: 900px) {
+			h4 {
+				font-size: initial;
+			}
+			h5 {
+				font-size: initial;
+			}
+			.nav {
+				font-size: initial;
+			}
+			.boxed {
+				width: 85%;
+			}
+			textarea {
+				width: 89%;
+				resize: none;
+			}
+		}
+		
